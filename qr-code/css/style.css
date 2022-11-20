@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 98.8vw;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    padding: 15px;
+    width: 280px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.content img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+.lineone{
+    margin-top: 20px;
+    padding: 0 25px;
+    color: hsl(218, 44%, 22%);
+}
+.linetwo{
+    padding: 0 15px;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 20px;
+}
+.scan1{
+    margin: 0 2px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+.scan2{
+    margin: 0 4px;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+.scan3{
+    padding: 0 70px;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+@media screen and (max-width:375px ) {
+    .container{
+        width: 375px;
+        height: 600px;
+    }
+    .content{
+        width: 80%;
+        height: 440px;
+    }
+    .lineone{
+        margin: 20px 10px 0 10px;
+    }
+    .linetwo{
+        margin: 0px 10px 20px 10px;
+    }
+    .scan1{
+        margin: 0 8px;
+    }
+    .scan2{
+        margin: 0 12px;
+    }
+    .scan3{
+        margin: 0 17px;
+    }
+}
